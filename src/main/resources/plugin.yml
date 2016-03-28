@@ -1,0 +1,10 @@
+name: SkyWars
+version: 1.0
+main: de.piet.skywars.SkyWars
+depend: [Cloud]
+commands:
+     swadmin:
+          permission: cloud.admin
+          usage: /swadmin
+     start:
+          usage: /start
